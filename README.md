@@ -48,7 +48,6 @@ git clone https://github.com/Sudiksha2507/Student-DBMS-Java.git
 ### 2. Create Database in MySQL
 Run the following SQL commands:
 
-```sql
 CREATE DATABASE studentdb;
 
 USE studentdb;
@@ -60,20 +59,24 @@ CREATE TABLE students (
     course VARCHAR(100),
     email VARCHAR(100)
 );
+
 3. Add MySQL Connector
 Download MySQL Connector/J
 Place .jar file inside lib/ folder
 Add it to project classpath
-4. Configure Database Connection
+
+5. Configure Database Connection
 
 Edit DBConnection.java:
 
 String url = "jdbc:mysql://localhost:3306/studentdb";
 String user = "root";
 String password = "your_password";
+
 5. Run the Project
 javac -cp ".;lib/*" *.java
 java -cp ".;lib/*" Main
+
 ▶️ How to Use
 
 After running, you will see:
