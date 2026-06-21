@@ -60,21 +60,21 @@ CREATE TABLE students (
     course VARCHAR(100),
     email VARCHAR(100)
 );
-## 3. Add MySQL Connector
+3. Add MySQL Connector
 Download MySQL Connector/J
 Place .jar file inside lib/ folder
 Add it to project classpath
-## 4. Configure Database Connection
+4. Configure Database Connection
 
 Edit DBConnection.java:
 
 String url = "jdbc:mysql://localhost:3306/studentdb";
 String user = "root";
 String password = "your_password";
-## 5. Run the Project
+5. Run the Project
 javac -cp ".;lib/*" *.java
 java -cp ".;lib/*" Main
-## ▶️ How to Use
+▶️ How to Use
 
 After running, you will see:
 
@@ -87,19 +87,19 @@ After running, you will see:
 
 Enter your choice and perform operations.
 
-## 📸 Sample Output
+📸 Sample Output
 Student Added Successfully
 1 | Rahul | 21 | Computer Science | rahul@gmail.com
 Student Updated Successfully
 Student Deleted Successfully
 
-## 🎯 Key Learnings
+🎯 Key Learnings
 Java OOP concepts
 JDBC database connectivity
 MySQL CRUD operations
 Project structuring
 Git & GitHub usage
 
-##👨‍💻 Author
+👨‍💻 Author
 
 Sudiksha
